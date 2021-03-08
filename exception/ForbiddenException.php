@@ -5,16 +5,16 @@
  * Time: 11:35 AM
  */
 
-namespace ng\core\exception;
+namespace muuska\app\exception;
 
 
-use ng\core\Application;
+use muuska\app\Application;
 
 /**
  * Class ForbiddenException
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core\exception
+ * @package muuska\app\exception
  */
 class ForbiddenException extends \Exception
 {

@@ -5,10 +5,10 @@
  * Time: 7:05 AM
  */
 
-namespace ng\core\form;
+namespace muuska\app\form;
 
 
-use ng\core\Model;
+use muuska\app\Model;
 
 /**
  * Class Field
@@ -25,7 +25,7 @@ class Field extends BaseField
     /**
      * Field constructor.
      *
-     * @param \ng\core\Model $model
+     * @param \muuska\app\Model $model
      * @param string          $attribute
      */
     public function __construct(Model $model, string $attribute)

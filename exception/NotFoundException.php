@@ -5,14 +5,14 @@
  * Time: 11:43 AM
  */
 
-namespace ng\core\exception;
+namespace muuska\app\exception;
 
 
 /**
  * Class NotFoundException
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core\exception
+ * @package muuska\app\exception
  */
 class NotFoundException extends \Exception
 {

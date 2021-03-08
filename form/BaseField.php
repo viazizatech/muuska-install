@@ -5,16 +5,16 @@
  * Time: 3:49 PM
  */
 
-namespace ng\core\form;
+namespace muuska\app\form;
 
 
-use ng\core\Model;
+use muuska\app\Model;
 
 /**
  * Class BaseField
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core\form
+ * @package muuska\app\form
  */
 abstract class BaseField
 {
@@ -26,7 +26,7 @@ abstract class BaseField
     /**
      * Field constructor.
      *
-     * @param \ng\core\Model $model
+     * @param \muuska\app\Model $model
      * @param string          $attribute
      */
     public function __construct(Model $model, string $attribute)

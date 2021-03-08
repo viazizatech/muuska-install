@@ -5,9 +5,9 @@
  * Time: 9:57 AM
  */
 
-namespace ng\core;
+namespace muuska\app;
 
-use ng\core\db\Database;
+use muuska\app\db\Database;
 
 /**
  * Class Application

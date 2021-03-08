@@ -5,14 +5,14 @@
  * Time: 2:45 PM
  */
 
-namespace ng\core;
+namespace muuska\app;
 
 
 /**
  * Class View
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core
+ * @package muuska\app
  */
 class View
 {

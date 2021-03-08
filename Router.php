@@ -5,9 +5,9 @@
  * Time: 10:01 AM
  */
 
-namespace ng\core;
+namespace muuska\app;
 
-use ng\core\exception\NotFoundException;
+use muuska\app\exception\NotFoundException;
 
 /**
  * Class Router
@@ -50,7 +50,7 @@ class Router
         }
         if (is_array($callback)) {
             /**
-             * @var $controller \ng\core\Controller
+             * @var $controller \muuska\app\Controller
              */
             $controller = new $callback[0];
             $controller->action = $callback[1];

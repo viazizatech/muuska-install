@@ -5,14 +5,14 @@
  * Time: 11:18 PM
  */
 
-namespace ng\core;
+namespace muuska\app;
 
 
 /**
  * Class Session
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core
+ * @package muuska\app
  */
 class Session
 {

@@ -5,16 +5,16 @@
  * Time: 9:19 AM
  */
 
-namespace ng\core\db;
+namespace muuska\app\db;
 
-use ng\core\Application;
-use ng\core\Model;
+use muuska\app\Application;
+use muuska\app\Model;
 
 /**
  * Class DbModel
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core
+ * @package muuska\app
  */
 abstract class DbModel extends Model
 {

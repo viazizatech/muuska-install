@@ -5,17 +5,17 @@
  * Time: 11:33 AM
  */
 
-namespace ng\core\middlewares;
+namespace muuska\app\middlewares;
 
 
-use ng\core\Application;
-use ng\core\exception\ForbiddenException;
+use muuska\app\Application;
+use muuska\app\exception\ForbiddenException;
 
 /**
  * Class AuthMiddleware
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core
+ * @package muuska\app
  */
 class AuthMiddleware extends BaseMiddleware
 {

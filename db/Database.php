@@ -5,16 +5,16 @@
  * Time: 8:09 AM
  */
 
-namespace ng\core\db;
+namespace muuska\app\db;
 
 
-use ng\core\Application;
+use muuska\app\Application;
 
 /**
  * Class Database
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core
+ * @package muuska\app
  */
 class Database
 {

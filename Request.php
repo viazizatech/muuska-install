@@ -5,7 +5,7 @@
  * Time: 10:23 AM
  */
 
-namespace ng\core;
+namespace muuska\app;
 
 
 /**

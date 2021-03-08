@@ -5,14 +5,14 @@
  * Time: 9:16 AM
  */
 
-namespace ng\core;
+namespace muuska\app;
 
 
 /**
  * Class Model
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core
+ * @package muuska\app
  */
 class Model
 {

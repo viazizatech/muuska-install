@@ -5,10 +5,10 @@
  * Time: 7:05 AM
  */
 
-namespace ng\core\form;
+namespace muuska\app\form;
 
 
-use ng\core\Model;
+use muuska\app\Model;
 
 /**
  * Class Form

@@ -6,6 +6,11 @@
             "email": "contact@viaziza.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "muuska\\app\\": "./"
+        }
+    },
     "require": {},
     "description": ""
 }

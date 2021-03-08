@@ -5,14 +5,14 @@
  * Time: 8:43 AM
  */
 
-namespace ng\core;
+namespace muuska\app;
 
-use ng\core\middlewares\BaseMiddleware;
+use muuska\app\middlewares\BaseMiddleware;
 /**
  * Class Controller
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core
+ * @package muuska\app
  */
 class Controller
 {
@@ -20,7 +20,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var \ng\core\BaseMiddleware[]
+     * @var \muuska\app\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -40,7 +40,7 @@ class Controller
     }
 
     /**
-     * @return \ng\core\middlewares\BaseMiddleware[]
+     * @return \muuska\app\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

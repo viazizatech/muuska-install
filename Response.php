@@ -5,14 +5,14 @@
  * Time: 10:53 AM
  */
 
-namespace ng\core;
+namespace muuska\app;
 
 
 /**
  * Class Response
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core
+ * @package muuska\app
  */
 class Response
 {

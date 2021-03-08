@@ -5,14 +5,14 @@
  * Time: 3:49 PM
  */
 
-namespace ng\core\form;
+namespace muuska\app\form;
 
 
 /**
  * Class TextareaField
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package ng\core\form
+ * @package muuska\app\form
  */
 class TextareaField extends BaseField
 {
