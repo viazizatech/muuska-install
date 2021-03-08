@@ -1,8 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
- * Date: 7/25/2020
- * Time: 11:35 AM
+ * User: ViaZi Za Tech
  */
 
 namespace muuska\app\exception;
@@ -13,7 +11,7 @@ use muuska\app\Application;
 /**
  * Class ForbiddenException
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package muuska\app\exception
  */
 class ForbiddenException extends \Exception

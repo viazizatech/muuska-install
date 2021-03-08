@@ -1,2 +1,3 @@
-# ng-php-mvc-core
-PHP core
+# PHP core
+Muuska Package core
+

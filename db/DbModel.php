@@ -1,8 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
- * Date: 7/10/2020
- * Time: 9:19 AM
+ * User: ViaZi Za Tech
  */
 
 namespace muuska\app\db;
@@ -13,7 +11,7 @@ use muuska\app\Model;
 /**
  * Class DbModel
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package muuska\app
  */
 abstract class DbModel extends Model

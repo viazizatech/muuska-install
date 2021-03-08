@@ -1,8 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
- * Date: 7/7/2020
- * Time: 10:23 AM
+ * User: ViaZi Za Tech
  */
 
 namespace muuska\app;
@@ -11,7 +9,7 @@ namespace muuska\app;
 /**
  * Class Request
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package thecodeholic\mvc
  */
 class Request

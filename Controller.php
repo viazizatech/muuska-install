@@ -1,8 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
- * Date: 7/8/2020
- * Time: 8:43 AM
+ * User: ViaZi Za Tech
  */
 
 namespace muuska\app;
@@ -11,7 +9,7 @@ use muuska\app\middlewares\BaseMiddleware;
 /**
  * Class Controller
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package muuska\app
  */
 class Controller

@@ -1,8 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
- * Date: 7/10/2020
- * Time: 8:09 AM
+ * User: ViaZi Za Tech
  */
 
 namespace muuska\app\db;
@@ -13,7 +11,7 @@ use muuska\app\Application;
 /**
  * Class Database
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package muuska\app
  */
 class Database

@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * User: ViaZi Za Tech
+ */
 
 namespace muuska\app;
 
@@ -7,7 +9,7 @@ namespace muuska\app;
 /**
  * Class View
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package muuska\app
  */
 class View

@@ -1,8 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
- * Date: 7/9/2020
- * Time: 7:05 AM
+ * User: ViaZi Za Tech
  */
 
 namespace muuska\app\form;
@@ -13,7 +11,7 @@ use muuska\app\Model;
 /**
  * Class Field
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package core\form
  */
 class Field extends BaseField

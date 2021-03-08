@@ -1,8 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
- * Date: 7/25/2020
- * Time: 11:33 AM
+ * User: ViaZi Za Tech
  */
 
 namespace muuska\app\middlewares;
@@ -14,7 +12,7 @@ use muuska\app\exception\ForbiddenException;
 /**
  * Class AuthMiddleware
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package muuska\app
  */
 class AuthMiddleware extends BaseMiddleware

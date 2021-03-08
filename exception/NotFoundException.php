@@ -1,8 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
- * Date: 7/25/2020
- * Time: 11:43 AM
+ * User: ViaZi Za Tech
  */
 
 namespace muuska\app\exception;
@@ -11,7 +9,7 @@ namespace muuska\app\exception;
 /**
  * Class NotFoundException
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package muuska\app\exception
  */
 class NotFoundException extends \Exception

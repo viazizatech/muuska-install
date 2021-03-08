@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * User: ViaZi Za Tech
+ */
 
 namespace muuska\app;
 
@@ -8,7 +10,7 @@ use muuska\app\exception\NotFoundException;
 /**
  * Class Router
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package thecodeholic\mvc
  */
 class Router

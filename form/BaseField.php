@@ -1,8 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
- * Date: 7/26/2020
- * Time: 3:49 PM
+ * User: ViaZi Za Tech
  */
 
 namespace muuska\app\form;
@@ -13,7 +11,7 @@ use muuska\app\Model;
 /**
  * Class BaseField
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  ViaZi Za Tech <contact@viaziza.com>
  * @package muuska\app\form
  */
 abstract class BaseField
