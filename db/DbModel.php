@@ -72,4 +72,20 @@ abstract class DbModel extends Model
         }
        return $data;
     }
+
+    public function update($data, $conditions){
+        $table = static::tableName();
+
+        if (!empty($data) && is_array($data)){
+            $colvalSet = '';
+            $whereSql = '';
+            $i = 0;
+
+            foreach ($data as $key=>$val){
+                $pre = ($i > 0)?'; ':'';
+                $colvalSet .=$pre.$key."='".$val."'";
+                $i++;
+            }
+        }
+    }
 }
