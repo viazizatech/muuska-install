@@ -76,16 +76,34 @@ abstract class DbModel extends Model
     public function update($data, $conditions){
         $table = static::tableName();
 
-        if (!empty($data) && is_array($data)){
+        if(!empty($data) && is_array($data)){
             $colvalSet = '';
             $whereSql = '';
             $i = 0;
 
-            foreach ($data as $key=>$val){
-                $pre = ($i > 0)?'; ':'';
-                $colvalSet .=$pre.$key."='".$val."'";
+            foreach($data as $key=>$val){
+                $pre = ($i > 0)?', ':'';
+                $colvalSet .= $pre.$key."='".$val."'";
                 $i++;
             }
+
+            if(!empty($conditions)&& is_array($conditions)){
+                $whereSql .= ' WHERE ';
+                $i = 0;
+                foreach($conditions as $key => $value){
+                    $pre = ($i > 0)?' AND ':'';
+                    $whereSql .= $pre.$key." = '".$value."'";
+                    $i++;
+                }
+            }
+
+            $sql = "UPDATE ".$table." SET ".$colvalSet.$whereSql;
+            $query = self::prepare($sql);
+            $update = $query->execute();
+            return $update?$query->rowCount():false;
+        }else{
+            return false;
         }
     }
+
 }
