@@ -117,4 +117,13 @@ abstract class DbModel extends Model
         return $data;
     }
 
+    public function countTable()
+    {
+        $tableName = static::tableName();
+        $statement = self::prepare("SELECT * FROM $tableName");
+        $statement->execute();
+
+        return $statement->rowCount();
+    }
+
 }
