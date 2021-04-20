@@ -105,5 +105,16 @@ abstract class DbModel extends Model
             return false;
         }
     }
+    public function findAll()
+    {
+        $tableName = static::tableName();
+        $statement = self::prepare("SELECT * FROM $tableName");
+        $statement->execute();
+        $data = array();
+        while ($row = $statement->fetch(\PDO::FETCH_ASSOC)) {
+            $data[] = $row;
+        }
+        return $data;
+    }
 
 }
