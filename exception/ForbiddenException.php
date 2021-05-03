@@ -16,6 +16,7 @@ use muuska\app\Application;
  */
 class ForbiddenException extends \Exception
 {
+    //Exception 403
     protected $message = 'You don\'t have permission to access this page';
     protected $code = 403;
 }
