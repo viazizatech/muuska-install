@@ -14,6 +14,7 @@ namespace muuska\app\exception;
  */
 class NotFoundException extends \Exception
 {
+    //404 Error
     protected $message = 'Page not found';
     protected $code = 404;
 }
