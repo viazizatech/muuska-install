@@ -116,6 +116,14 @@ abstract class DbModel extends Model
         }
         return $data;
     }
+    
+    public function delete($id)
+    {
+        $tableName = static::tableName();
+        $statement = self::prepare("DELETE FROM $tableName WHERE id = :id");
+        $statement->bindParam("id", $id, \PDO::PARAM_STR);
+        $statement->execute();
+    }
 
     public function countTable()
     {
@@ -125,13 +133,6 @@ abstract class DbModel extends Model
 
         return $statement->rowCount();
     }
-
-    public function delete($id)
-    {
-        $tableName = static::tableName();
-        $statement = self::prepare("DELETE FROM $tableName WHERE id = :id");
-        $statement->bindParam("id", $id, \PDO::PARAM_STR);
-        $statement->execute();
-    }
+    
 
 }
