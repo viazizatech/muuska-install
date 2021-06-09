@@ -35,6 +35,7 @@ class Application
 
     public function __construct($rootDir, $config)
     {
+        $this->userId = '';
         $this->user = null;
         $this->userClass = $config['userClass'];
         self::$ROOT_DIR = $rootDir;
