@@ -43,7 +43,7 @@ class CookieVisitorInfoRecorder implements VisitorInfoRecorder
         $this->content = array();
         $expire = is_null($expire) ? time() + 1728000 : (int) $expire;
         $path = trim(($standalone ? '' : $request->getContextPath()).$path, '/\\').'/';
-        if ($path{0} != '/') {
+        if ($path[0] != '/') {
             $path = '/'.$path;
         }
         $path = rawurlencode($path);
