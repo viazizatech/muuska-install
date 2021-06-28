@@ -1,5 +1,5 @@
 {
-    "name": "vendor/muuska",
+    "name": "muuska/muuska",
     "authors": [
         {
             "name": "ViaZi Za Tech",
@@ -11,14 +11,7 @@
             "muuska\\app\\": "./"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/viazizatech/muuska-install"
-        }
-    ],
-    "require": {
-    "vendor/muuska": "1.0.5"
-    },
+    
+    "require": {},
     "description": ""
 }
