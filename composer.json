@@ -11,6 +11,14 @@
             "muuska\\app\\": "./"
         }
     },
-    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/viazizatech/muuska-install"
+        }
+    ],
+    "require": {
+    "vendor/muuska": "1.0.5"
+    },
     "description": ""
 }
